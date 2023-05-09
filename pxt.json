@@ -3,8 +3,6 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*",
         "climate-action-kit-land": "github:climate-action-kits/pxt-climate-action-kit-land#v2.2.1"
     },
     "files": [
