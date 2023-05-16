@@ -42,7 +42,7 @@ cakLandServos.resetServos(cakLandServos.ServoPin.P0)
 cakLandServos.setServoPosition(cakLandServos.ServoPin.P0, cakLandServos.Position.UP)
 cakLandPump.pumpStart(cakLand.BoardSide.RIGHT, 34)
 basic.forever(function () {
-    if (cakLandSoil.ifMoisture(cakLandSoil.SoilPin.P0, cakLandSoil.Mlevel.VERY_WET)) {
+    if (cakLandSoil.ifMoisture(cakLandSoil.SoilPin.P0, cakLandSoil.Mlevel.WET)) {
         tooWetQ = 1
         imgWet.showImage(0)
     } else {
