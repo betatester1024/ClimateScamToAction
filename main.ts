@@ -60,7 +60,7 @@ loops.everyInterval(2300, function () {
         imgForward.showImage(0)
     }
     if (tooWetQ > 0) {
-        cakLandMotor.turnLeft(20)
+        cakLandMotor.turnLeft(76)
     } else {
         cakLandMotor.turnLeft(63)
         basic.pause(500)
